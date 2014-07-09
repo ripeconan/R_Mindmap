@@ -1,4 +1,4 @@
-<map version="docear 1.1" dcr_id="1402381147203_50db6vkacbpvl18rx4l7r0tnc" project="146846BFD3BASJC0QY4RD2D32SSCJQGNG0QP" project_last_home="file:/E:/Docear/R">
+<map version="docear 1.1" project="146846BFD3BASJC0QY4RD2D32SSCJQGNG0QP" project_last_home="file:/E:/Docear/R" dcr_id="1402381147203_50db6vkacbpvl18rx4l7r0tnc">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT=" R Language" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1402382193640" BACKGROUND_COLOR="#ffffff">
 <font ITALIC="false"/>
@@ -52,8 +52,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7"/>
-<node TEXT="Introduction" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" POSITION="right" ID="ID_703851366" CREATED="1402382223921" MODIFIED="1404790423718">
+<hook NAME="AutomaticEdgeColor" COUNTER="8"/>
+<node TEXT="Introduction" LOCALIZED_STYLE_REF="styles.subtopic" POSITION="right" ID="ID_703851366" CREATED="1402382223921" MODIFIED="1404790423718">
 <edge COLOR="#7c0000"/>
 <font SIZE="14"/>
 <node TEXT="Operaters&#xff1a; &lt;-, #, +, -, *, /, ^ or **, %%, %/%" ID="ID_1901414569" CREATED="1402381401687" MODIFIED="1404789341000" COLOR="#0033ff" MOVED="1402382234156" HGAP="19" VSHIFT="-14">
@@ -68,7 +68,7 @@
 <node TEXT="IO&#xff1a;source(&quot;file.R&quot;), sink(&quot;filename&quot;, append = TRUE, split = TRUE)&#xa;       pdf(&quot;filename.pdf&quot;), dev.off()" ID="ID_1757583782" CREATED="1402382654593" MODIFIED="1402409958109" HGAP="24" VSHIFT="-14">
 <font SIZE="12"/>
 </node>
-<node TEXT="Package&#xff1a;install.packages(&quot;ggplot2&quot;), library(ggplot2)&#xa;                update.packages(), installed.packages()" ID="ID_1160004981" CREATED="1402383240406" MODIFIED="1402409959625" VSHIFT="-7">
+<node TEXT="Package&#xff1a;install.packages(&quot;ggplot2&quot;), library(ggplot2)&#xa;                update.packages(), installed.packages(), help(package = &quot;package_name&quot;)" ID="ID_1160004981" CREATED="1402383240406" MODIFIED="1404876212515" VSHIFT="-7">
 <font SIZE="12"/>
 </node>
 <node TEXT="Useful function&#xff1a;length(), dim(), str(), class(), mode(),&#xa;                             names(), nrow(), head(), tail()..." ID="ID_1534751248" CREATED="1402386328906" MODIFIED="1402391579203">
@@ -134,10 +134,29 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
-<node TEXT="8" OBJECT="java.lang.Long|8" ID="ID_637261668" CREATED="1402385456687" MODIFIED="1404814775953"/>
+<node ID="ID_637261668" CREATED="1402385456687" MODIFIED="1404892260406"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#000000" size="3">Type transform&#65306;</font></b><font color="#0066ff" size="3"><br size="3" color="#0066ff"/>as.numeric() </font>
+    </p>
+    <p>
+      <font size="3" color="#0066ff">as.vector()<br size="3" color="#0066ff"/>as.logical()<br size="3" color="#0066ff"/>as.charactor() </font>
+    </p>
+    <p>
+      <font size="3" color="#0066ff">as.factor()<br size="3" color="#0066ff"/>as.matrix()<br size="3" color="#0066ff"/>as.dataframe()</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -187,7 +206,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 <hook NAME="FirstGroupNode"/>
@@ -251,7 +269,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_780319642" CREATED="1402384579656" MODIFIED="1404825150552"><richcontent TYPE="NODE">
@@ -269,7 +286,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 </node>
@@ -291,7 +307,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 </node>
@@ -343,7 +358,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 </node>
@@ -422,7 +436,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Data Management" LOCALIZED_STYLE_REF="styles.subtopic" POSITION="right" ID="ID_193506881" CREATED="1404789420171" MODIFIED="1404790423750">
+<node TEXT="Data Management" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" POSITION="right" ID="ID_193506881" CREATED="1404789420171" MODIFIED="1404790423750">
 <edge COLOR="#00ff00"/>
 <font SIZE="14"/>
 <node TEXT="Create New Variable inside a dataframe" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_588499754" CREATED="1404789462296" MODIFIED="1404790405515">
@@ -673,7 +687,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Sys.Date( ),  date( )" ID="ID_1472776656" CREATED="1404814260437" MODIFIED="1404814424078" COLOR="#ff0000">
@@ -693,7 +706,6 @@
                    &quot;days&quot;, &quot;weeks&quot;))</pre>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 </node>
@@ -709,7 +721,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 </node>
@@ -746,7 +757,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 </node>
@@ -765,7 +775,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 </node>
@@ -781,18 +790,17 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 </node>
 </node>
 </node>
-<node TEXT="Advanced Data Management" LOCALIZED_STYLE_REF="styles.subtopic" POSITION="right" ID="ID_948668580" CREATED="1404818277171" MODIFIED="1404818292781">
+<node TEXT="Advanced Data Management" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" POSITION="right" ID="ID_948668580" CREATED="1404818277171" MODIFIED="1404818292781">
 <edge COLOR="#ff00ff"/>
 <font SIZE="14"/>
-<node TEXT="Built-in functions" ID="ID_1356938234" CREATED="1404818299156" MODIFIED="1404819355796">
+<node TEXT="Built-in functions" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1356938234" CREATED="1404818299156" MODIFIED="1404872367062">
 <font SIZE="12"/>
-<node TEXT="Math functions" ID="ID_362721523" CREATED="1404818384859" MODIFIED="1404819365765"><richcontent TYPE="NOTE">
+<node TEXT="Math functions" LOCALIZED_STYLE_REF="styles.topic" ID="ID_362721523" CREATED="1404818384859" MODIFIED="1404872382218"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -858,7 +866,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 <node ID="ID_1548326701" CREATED="1404823863396" MODIFIED="1404823965990"><richcontent TYPE="NODE">
@@ -873,12 +880,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 </node>
 </node>
-<node TEXT="Statistical functions" ID="ID_783678342" CREATED="1404818858031" MODIFIED="1404819364109"><richcontent TYPE="NOTE">
+<node TEXT="Statistical functions" LOCALIZED_STYLE_REF="styles.topic" ID="ID_783678342" CREATED="1404818858031" MODIFIED="1404872382218"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -950,7 +956,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 <node ID="ID_769735040" CREATED="1404823756287" MODIFIED="1404823824537"><richcontent TYPE="NODE">
@@ -965,12 +970,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 </node>
 </node>
-<node TEXT="Probability functions" ID="ID_1396636924" CREATED="1404819156000" MODIFIED="1404819361218"><richcontent TYPE="NOTE">
+<node TEXT="Probability functions" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1396636924" CREATED="1404819156000" MODIFIED="1404872382234"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1015,7 +1019,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 <node ID="ID_1326032513" CREATED="1404819179468" MODIFIED="1404823210677"><richcontent TYPE="NODE">
@@ -1045,12 +1048,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 </node>
 </node>
-<node TEXT="String functions" ID="ID_108869889" CREATED="1404823228365" MODIFIED="1404823617005">
+<node TEXT="String functions" LOCALIZED_STYLE_REF="styles.topic" ID="ID_108869889" CREATED="1404823228365" MODIFIED="1404872382234">
 <font SIZE="12"/>
 <richcontent TYPE="NOTE">
 
@@ -1175,7 +1177,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1331843991" CREATED="1404823644693" MODIFIED="1404823851177"><richcontent TYPE="NODE">
 
@@ -1189,18 +1190,17 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="Control Flow" LOCALIZED_STYLE_REF="styles.subtopic" POSITION="right" ID="ID_66594076" CREATED="1404824670912" MODIFIED="1404824681287">
+<node TEXT="Control Flow" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" POSITION="right" ID="ID_66594076" CREATED="1404824670912" MODIFIED="1404824681287">
 <edge COLOR="#00ffff"/>
 <font SIZE="14"/>
 <node TEXT="Conditional" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_662532369" CREATED="1404824721333" MODIFIED="1404824764052">
 <font SIZE="12"/>
-<node TEXT="if-else" ID="ID_56786074" CREATED="1404824766521" MODIFIED="1404824961896">
+<node TEXT="if-else" LOCALIZED_STYLE_REF="styles.topic" ID="ID_56786074" CREATED="1404824766521" MODIFIED="1404872374187">
 <font SIZE="12"/>
 <node TEXT="if (cond) statement" ID="ID_1361985190" CREATED="1404824862208" MODIFIED="1404824961912">
 <font SIZE="12"/>
@@ -1209,13 +1209,13 @@
 <font SIZE="12"/>
 </node>
 </node>
-<node TEXT="ifelse" ID="ID_1482859428" CREATED="1404824778490" MODIFIED="1404824961927">
+<node TEXT="ifelse" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1482859428" CREATED="1404824778490" MODIFIED="1404872374187">
 <font SIZE="12"/>
 <node TEXT="ifelse(cond, statement1, statement2)" ID="ID_475304810" CREATED="1404824900083" MODIFIED="1404824961912">
 <font SIZE="12"/>
 </node>
 </node>
-<node TEXT="switch" ID="ID_490687062" CREATED="1404824781583" MODIFIED="1404824961927">
+<node TEXT="switch" LOCALIZED_STYLE_REF="styles.topic" ID="ID_490687062" CREATED="1404824781583" MODIFIED="1404872374203">
 <font SIZE="12"/>
 <node TEXT="switch(expr, ...)" ID="ID_1318081985" CREATED="1404824923115" MODIFIED="1404824961896">
 <font SIZE="12"/>
@@ -1224,13 +1224,13 @@
 </node>
 <node TEXT="Loop" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_398457894" CREATED="1404824724833" MODIFIED="1404824764052">
 <font SIZE="12"/>
-<node TEXT="for" ID="ID_897009442" CREATED="1404824786771" MODIFIED="1404825016896">
+<node TEXT="for" LOCALIZED_STYLE_REF="styles.topic" ID="ID_897009442" CREATED="1404824786771" MODIFIED="1404872397703">
 <font SIZE="12"/>
 <node TEXT="for (var in seq) statement" ID="ID_1268958980" CREATED="1404824972552" MODIFIED="1404825016896">
 <font SIZE="12"/>
 </node>
 </node>
-<node TEXT="while" ID="ID_1632019619" CREATED="1404824789146" MODIFIED="1404825016912">
+<node TEXT="while" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1632019619" CREATED="1404824789146" MODIFIED="1404872397703">
 <font SIZE="12"/>
 <node TEXT="while (cond) statement" ID="ID_582169696" CREATED="1404824990646" MODIFIED="1404825016912">
 <font SIZE="12"/>
@@ -1238,12 +1238,14 @@
 </node>
 </node>
 </node>
-<node TEXT="User-Generated Function" LOCALIZED_STYLE_REF="styles.subtopic" POSITION="right" ID="ID_1406869306" CREATED="1404825200943" MODIFIED="1404825218052">
+<node TEXT="User-Generated Function" LOCALIZED_STYLE_REF="styles.subtopic" FOLDED="true" POSITION="right" ID="ID_1406869306" CREATED="1404825200943" MODIFIED="1404825218052">
 <edge COLOR="#ffff00"/>
 <font SIZE="14"/>
-<node TEXT="Definition" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_224027538" CREATED="1404825222115" MODIFIED="1404825236474">
+<node TEXT="Definition" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_224027538" CREATED="1404825222115" MODIFIED="1404872335656">
 <font SIZE="12"/>
-<node TEXT="myfunction &lt;- function(arg1, arg2, ...) {&#xa;    statements&#xa;    return(object)&#xa;}" ID="ID_1197317793" CREATED="1404825250912" MODIFIED="1404825285521"/>
+<node TEXT="myfunction &lt;- function(arg1, arg2, ...) {&#xa;    statements&#xa;    return(object)&#xa;}" ID="ID_1197317793" CREATED="1404825250912" MODIFIED="1404872338828">
+<font SIZE="12"/>
+</node>
 </node>
 </node>
 <node TEXT="Plot" LOCALIZED_STYLE_REF="styles.subtopic" POSITION="right" ID="ID_1105166883" CREATED="1402413718703" MODIFIED="1404790423765">
@@ -1772,9 +1774,9 @@
 </node>
 </node>
 </node>
-<node TEXT="Basic Plots" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1988648608" CREATED="1404825499490" MODIFIED="1404825514599">
+<node TEXT="Basic Plots" LOCALIZED_STYLE_REF="styles.subsubtopic" FOLDED="true" ID="ID_1988648608" CREATED="1404825499490" MODIFIED="1404825514599">
 <font SIZE="12"/>
-<node TEXT="Barplot" ID="ID_831577546" CREATED="1404826431505" MODIFIED="1404829508662">
+<node TEXT="Barplot" LOCALIZED_STYLE_REF="styles.topic" ID="ID_831577546" CREATED="1404826431505" MODIFIED="1404872414890">
 <font SIZE="12"/>
 <node TEXT="Simple barplot&#xa;counts is a vector" ID="ID_1204088302" CREATED="1404826442943" MODIFIED="1404829350427">
 <font SIZE="12"/>
@@ -1801,7 +1803,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="horizontal barplot: barplot(counts, horiz = TRUE)" ID="ID_1877281038" CREATED="1404826732162" MODIFIED="1404826775693">
@@ -1821,7 +1822,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1840,7 +1840,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1368833207" CREATED="1404826917943" MODIFIED="1404827177927"><richcontent TYPE="NODE">
 
@@ -1854,7 +1853,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -1871,7 +1869,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Grouped Bar Plot: barplot(counts, beside = TRUE)" ID="ID_1719352633" CREATED="1404827111708" MODIFIED="1404827424568">
@@ -1897,7 +1894,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1913,7 +1909,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -1939,11 +1934,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Pie plot" ID="ID_1234781551" CREATED="1404829495068" MODIFIED="1404830165943">
+<node TEXT="Pie plot" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1234781551" CREATED="1404829495068" MODIFIED="1404872414890">
 <font SIZE="12"/>
 <node TEXT="Basic pie plot" ID="ID_404914194" CREATED="1404830035630" MODIFIED="1404830165943">
 <font SIZE="12"/>
@@ -1990,7 +1984,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2013,7 +2006,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2032,7 +2024,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -2055,12 +2046,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Hist" ID="ID_820185013" CREATED="1404830297990" MODIFIED="1404830522833">
+<node TEXT="Hist" LOCALIZED_STYLE_REF="styles.topic" ID="ID_820185013" CREATED="1404830297990" MODIFIED="1404872414890">
 <font SIZE="12"/>
 <node TEXT="hist(x, breaks = , freq = logical, col = , ...)&#xa;rug(jitter(x))&#xa;lines(density(x), col = , ...)" ID="ID_52101958" CREATED="1404830368771" MODIFIED="1404830549521">
 <font SIZE="12"/>
@@ -2088,11 +2078,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Density plot" ID="ID_1539667488" CREATED="1404830931240" MODIFIED="1404831024068">
+<node TEXT="Density plot" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1539667488" CREATED="1404830931240" MODIFIED="1404872414875">
 <font SIZE="12"/>
 <node TEXT="one density plot" ID="ID_209052842" CREATED="1404830952787" MODIFIED="1404831024068">
 <font SIZE="12"/>
@@ -2132,7 +2121,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font SIZE="12"/>
 </node>
@@ -2174,12 +2162,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Boxplot" ID="ID_427729528" CREATED="1404831618224" MODIFIED="1404831706615">
+<node TEXT="Boxplot" LOCALIZED_STYLE_REF="styles.topic" ID="ID_427729528" CREATED="1404831618224" MODIFIED="1404872414875">
 <font SIZE="12"/>
 <node TEXT="one box" ID="ID_1711302066" CREATED="1404831622568" MODIFIED="1404831706599">
 <font SIZE="12"/>
@@ -2233,7 +2220,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2280,7 +2266,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2321,7 +2306,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2386,7 +2370,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="other dotcharts: Hmisc::dotchart2" ID="ID_474354858" CREATED="1404832481912" MODIFIED="1404832504146">
@@ -2400,6 +2383,883 @@
 </node>
 <node TEXT="ggplot2" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_379858288" CREATED="1402413744140" MODIFIED="1404790475593" MOVED="1404787052531">
 <font SIZE="12"/>
+</node>
+</node>
+<node TEXT="Statistical Analysis" LOCALIZED_STYLE_REF="styles.subtopic" POSITION="right" ID="ID_1866093905" CREATED="1404872513921" MODIFIED="1404872536953">
+<edge COLOR="#00007c"/>
+<font SIZE="14"/>
+<node TEXT="Descriptive Analysis" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1217354369" CREATED="1404872570937" MODIFIED="1404874537843">
+<font SIZE="12"/>
+<hook NAME="FirstGroupNode"/>
+<node TEXT="summary(object)" ID="ID_1143843049" CREATED="1404872878000" MODIFIED="1404873041015">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">summary(mtcars[vars])</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="sapply(x, FUN, options)" ID="ID_276543789" CREATED="1404873043671" MODIFIED="1404873453015">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">mystats &lt;- function(x, na.omit = FALSE) { </font>
+    </p>
+    <p>
+      <font size="3">&#160;&#160;&#160;&#160;if (na.omit) </font>
+    </p>
+    <p>
+      <font size="3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;x &lt;- x[!is.na(x)] </font>
+    </p>
+    <p>
+      <font size="3">&#160;&#160;&#160;&#160;m &lt;- mean(x) </font>
+    </p>
+    <p>
+      <font size="3">&#160;&#160;&#160;&#160;n &lt;- length(x) </font>
+    </p>
+    <p>
+      <font size="3">&#160;&#160;&#160;&#160;s &lt;- sd(x) </font>
+    </p>
+    <p>
+      <font size="3">&#160;&#160;&#160;&#160;skew &lt;- sum((x - m)^3/s^3)/n </font>
+    </p>
+    <p>
+      <font size="3">&#160;&#160;&#160;&#160;kurt &lt;- sum((x - m)^4/s^4)/n - 3 </font>
+    </p>
+    <p>
+      <font size="3">&#160;&#160;&#160;&#160;return(c(n = n, mean = m, stdev = s, skew = skew, kurtosis = kurt)) </font>
+    </p>
+    <p>
+      <font size="3">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="3">sapply(mtcars[vars], mystats) </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <pre><font size="3">i39 &lt;- sapply(3:9, seq) # list of vectors
+sapply(i39, fivenum)</font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="fivenum(x, na.rm = TRUE)" ID="ID_1680235970" CREATED="1404873460078" MODIFIED="1404873535890">
+<font SIZE="12"/>
+</node>
+<node TEXT="library(Hmisc) describe(object)" ID="ID_190039971" CREATED="1404873547281" MODIFIED="1404873626546">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">library(Hmisc) </font>
+    </p>
+    <p>
+      <font size="3">describe(mtcars[vars])</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_771074902" CREATED="1404873658359" MODIFIED="1404873722140"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">library(pastecs) stat.desc(object)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">library(pastecs) </font>
+    </p>
+    <p>
+      <font size="3">stat.desc(mtcars[vars])</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="library(psych) describe(object)" ID="ID_1301238874" CREATED="1404874184546" MODIFIED="1404874249890">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">library(psych) </font>
+    </p>
+    <p>
+      <font size="3">describe(mtcars[vars])</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Grouping Description" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" ID="ID_1041403531" CREATED="1404874537828" MODIFIED="1404874707265">
+<hook NAME="SummaryNode"/>
+<node TEXT="aggregate( )" ID="ID_1581450705" CREATED="1404874554390" MODIFIED="1404874747671">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">aggregate(mtcars[vars], by = list(am = mtcars$am), mean) </font>
+    </p>
+    <p>
+      <font size="3">aggregate(mtcars[vars], by = list(am = mtcars$am), sd)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="by( )" ID="ID_1910925517" CREATED="1404874581796" MODIFIED="1404874765265">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">dstats &lt;- function(x)(c(mean=mean(x), sd=sd(x))) </font>
+    </p>
+    <p>
+      <font size="3">by(mtcars[vars], mtcars$am, dstats)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="doBy::summaryBy(formula, dataset, FUN)" ID="ID_170305358" CREATED="1404874593171" MODIFIED="1404874844578">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">library(doBy) </font>
+    </p>
+    <p>
+      <font size="3">summaryBy(mpg + hp + wt ~ am, data = mtcars, FUN = mystats)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="psych::describe.by( )" ID="ID_1854231566" CREATED="1404874630312" MODIFIED="1404874863000">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">library(psych) </font>
+    </p>
+    <p>
+      <font size="3">describe.by(mtcars[vars], mtcars$am)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="reshape2::melt, cast" ID="ID_357304583" CREATED="1404874649953" MODIFIED="1404874879843">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">library(reshape2) </font>
+    </p>
+    <p>
+      <font size="3">dstats &lt;- function(x) (c(n = length(x), mean = mean(x), </font>
+    </p>
+    <p>
+      <font size="3">&#160;&#160;&#160;&#160;sd = sd(x))) </font>
+    </p>
+    <p>
+      <font size="3">dfm &lt;- melt(mtcars, measure.vars = c(&quot;mpg&quot;, &quot;hp&quot;, </font>
+    </p>
+    <p>
+      <font size="3">&#160;&#160;&#160;&#160;&quot;wt&quot;), id.vars = c(&quot;am&quot;, &quot;cyl&quot;)) </font>
+    </p>
+    <p>
+      <font size="3">cast(dfm, am + cyl + variable ~ ., dstats)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Tables" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_95414865" CREATED="1404872650343" MODIFIED="1404875039937">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#20110;&#21019;&#24314;&#21644;&#22788;&#29702;&#21015;&#32852;&#34920;&#30340;&#20989;&#25968;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20989; &#25968;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#25551; &#36848;
+    </p>
+    <p>
+      table(var1, var2, &#8230;, varN)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#20351;&#29992; N &#20010;&#31867;&#21035;&#22411;&#21464;&#37327;&#65288;&#22240;&#23376;&#65289;&#21019;&#24314;&#19968;&#20010; N &#32500;&#21015;&#32852;&#34920;
+    </p>
+    <p>
+      xtabs(formula, data)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#26681;&#25454;&#19968;&#20010;&#20844;&#24335;&#21644;&#19968;&#20010;&#30697;&#38453;&#25110;&#25968;&#25454;&#26694;&#21019;&#24314;&#19968;&#20010; N &#32500;&#21015;&#32852;&#34920;
+    </p>
+    <p>
+      prop.table(table, margins)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#20381;margins&#23450;&#20041;&#30340;&#36793;&#38469;&#21015;&#34920;&#23558;&#34920;&#20013;&#26465;&#30446;&#34920;&#31034;&#20026;&#20998;&#25968;&#24418;&#24335;
+    </p>
+    <p>
+      margin.table(table, margins)&#160;&#160;&#160;&#20381;margins&#23450;&#20041;&#30340;&#36793;&#38469;&#21015;&#34920;&#35745;&#31639;&#34920;&#20013;&#26465;&#30446;&#30340;&#21644;
+    </p>
+    <p>
+      addmargins(table, margins)&#160;&#160;&#160;&#160;&#23558;&#27010;&#36848;&#36793;margins&#65288;&#40664;&#35748;&#26159;&#27714;&#21644;&#32467;&#26524;&#65289;&#25918;&#20837;&#34920;&#20013;
+    </p>
+    <p>
+      ftable(table)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#21019;&#24314;&#19968;&#20010;&#32039;&#20945;&#30340;&#8220;&#24179;&#38138;&#8221;&#24335;&#21015;&#32852;&#34920;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Frequency Tables" LOCALIZED_STYLE_REF="styles.topic" ID="ID_505517934" CREATED="1404872620562" MODIFIED="1404875176640" HGAP="23" VSHIFT="12" MOVED="1404872676515">
+<font SIZE="12"/>
+<hook NAME="FirstGroupNode"/>
+<node TEXT="table(var)" ID="ID_879217046" CREATED="1404875094281" MODIFIED="1404875149578">
+<font SIZE="12"/>
+</node>
+<node TEXT="prob.table(table)" ID="ID_363611929" CREATED="1404875127046" MODIFIED="1404875149562">
+<font SIZE="12"/>
+</node>
+</node>
+<node ID="ID_651417154" CREATED="1404875176640" MODIFIED="1404889053781" HGAP="17" VSHIFT="-37"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">library(vcd) </font>
+    </p>
+    <p>
+      <font size="3">mytable &lt;- with(Arthritis, table(Improved)) </font>
+    </p>
+    <p>
+      <font size="3">prop.table(mytable) </font>
+    </p>
+    <p>
+      <font size="3">prop.table(mytable)*100</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<hook NAME="SummaryNode"/>
+<font SIZE="12"/>
+</node>
+<node TEXT="Contingency Tables" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1546856524" CREATED="1404872627343" MODIFIED="1404872810765" MOVED="1404872680859">
+<font SIZE="12"/>
+<node TEXT="Generate" ID="ID_401441972" CREATED="1404877115328" MODIFIED="1404877301296" MOVED="1404877123171">
+<font SIZE="12"/>
+<hook NAME="FirstGroupNode"/>
+<node TEXT="table(var1, var2, ...)" ID="ID_1425393515" CREATED="1404875255671" MODIFIED="1404876760000" MOVED="1404877129140">
+<font SIZE="12"/>
+</node>
+<node ID="ID_387932788" CREATED="1404876681875" MODIFIED="1404877666703" MOVED="1404877129171"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">xtabs</font>( ~ var1 + var2 + ... , data = dataframe)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">mytable &lt;- xtabs(~ Treatment+Improved, data=Arthritis)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Two dimensional and higher" ID="ID_386556587" CREATED="1404877301281" MODIFIED="1404877319359">
+<hook NAME="SummaryNode"/>
+<font SIZE="12"/>
+</node>
+<node TEXT="Operate" ID="ID_960706587" CREATED="1404877131109" MODIFIED="1404877225265">
+<font SIZE="12"/>
+<node TEXT="margin.table(table,margins)" ID="ID_1825202290" CREATED="1404877148453" MODIFIED="1404877687328">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">mytable &lt;- xtabs(~ Treatment+Improved, data=Arthritis) </font>
+    </p>
+    <p>
+      <font size="3">margin.table(mytable, 1)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="prop.table(table,margins)" ID="ID_1476382248" CREATED="1404877176015" MODIFIED="1404877707781">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">mytable &lt;- xtabs(~ Treatment+Improved, data=Arthritis) </font>
+    </p>
+    <p>
+      <font size="3">prop.table(mytable, 1)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="addmargins(table,margins)" ID="ID_1923047320" CREATED="1404877183406" MODIFIED="1404877745375">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">mytable &lt;- xtabs(~ Treatment+Improved, data=Arthritis) </font>
+    </p>
+    <p>
+      <font size="3">margin.table(mytable, 1) </font>
+    </p>
+    <p>
+      <font size="3">prop.table(mytable, 1) </font>
+    </p>
+    <p>
+      <font size="3">margin.table(mytable, 2) </font>
+    </p>
+    <p>
+      <font size="3">prop.table(mytable, 2) </font>
+    </p>
+    <p>
+      <font size="3">prop.table(mytable) </font>
+    </p>
+    <p>
+      <font size="3">addmargins(mytable)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="gmodels::CrossTable()" ID="ID_726733901" CREATED="1404877260359" MODIFIED="1404877780093" COLOR="#ff0000">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">library(gmodels) </font>
+    </p>
+    <p>
+      <font size="3">CrossTable(Arthritis$Treatment, Arthritis$Improved)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1037159125" CREATED="1404877337031" MODIFIED="1404877797531"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">ftable</font>(table, row.vars = , col.vars = )
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">mytable &lt;- xtabs(~ Treatment+Sex+Improved, data=Arthritis) </font>
+    </p>
+    <p>
+      <font size="3">mytable </font>
+    </p>
+    <p>
+      <font size="3">ftable(mytable) </font>
+    </p>
+    <p>
+      <font size="3">margin.table(mytable, 1) </font>
+    </p>
+    <p>
+      <font size="3">margin.table(mytable, 2) </font>
+    </p>
+    <p>
+      <font size="3">margin.table(mytable, 3) </font>
+    </p>
+    <p>
+      <font size="3">margin.table(mytable, c(1,3)) </font>
+    </p>
+    <p>
+      <font size="3">ftable(prop.table(mytable, c(1, 2))) </font>
+    </p>
+    <p>
+      <font size="3">ftable(addmargins(prop.table(mytable, c(1, 2)), 3))</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="For at least 3 dimensional tables" ID="ID_1700583399" CREATED="1404877606656" MODIFIED="1404877628812">
+<font SIZE="12" BOLD="true"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Independence Test&#xa;for nominal varibles" LOCALIZED_STYLE_REF="styles.topic" ID="ID_75950246" CREATED="1404877982453" MODIFIED="1404888589281">
+<font SIZE="12"/>
+<node TEXT="chisq.test(table)" ID="ID_1820855037" CREATED="1404881333593" MODIFIED="1404881408703">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">library(vcd) </font>
+    </p>
+    <p>
+      <font size="3">mytable &lt;- xtabs(~Treatment+Improved, data=Arthritis) </font>
+    </p>
+    <p>
+      <font size="3">chisq.test(mytable) </font>
+    </p>
+    <p>
+      <font size="3">mytable &lt;- xtabs(~Improved+Sex, data=Arthritis) </font>
+    </p>
+    <p>
+      <font size="3">chisq.test(mytable)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_538359857" CREATED="1404881343640" MODIFIED="1404881471968"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      fisher.test(table)&#160; <b><font color="#ff0000">Not used for 2*2 contingency table</font></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">mytable &lt;- xtabs(~Treatment+Improved, data=Arthritis) </font>
+    </p>
+    <p>
+      <font size="3">fisher.test(mytable)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="mantelhaen.test(table)" ID="ID_1339924268" CREATED="1404881353687" MODIFIED="1404881430437">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">mytable &lt;- xtabs(~Treatment+Improved+Sex, data=Arthritis) </font>
+    </p>
+    <p>
+      <font size="3">mantelhaen.test(mytable)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="assocstats(table)" ID="ID_268625174" CREATED="1404881506984" MODIFIED="1404881534015">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">library(vcd) </font>
+    </p>
+    <p>
+      <font size="3">mytable &lt;- xtabs(~Treatment+Improved, data=Arthritis) </font>
+    </p>
+    <p>
+      <font size="3">assocstats(mytable)</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Correlation &amp; Covariance&#xa;for quantitative variables" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_1286735443" CREATED="1404872730515" MODIFIED="1404891215703">
+<font SIZE="12"/>
+<node TEXT="Compute" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1984440594" CREATED="1404889314375" MODIFIED="1404892585046" VSHIFT="14" MOVED="1404889398750">
+<font SIZE="12"/>
+<hook NAME="FirstGroupNode"/>
+<node TEXT="cor(x, use = , method = )" ID="ID_1886145243" CREATED="1404888592218" MODIFIED="1404889426265" MOVED="1404889346187" HGAP="36" VSHIFT="25"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">cor&#21644;cov&#30340;&#21442;&#25968; </font>
+    </p>
+    <p>
+      <font size="2">&#21442; &#25968;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#25551; &#36848; </font>
+    </p>
+    <p>
+      <font size="2">x&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#30697;&#38453;&#25110;&#25968;&#25454;&#26694; </font>
+    </p>
+    <p>
+      <font size="2">use&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#25351;&#23450;&#32570;&#22833;&#25968;&#25454;&#30340;&#22788;&#29702;&#26041;&#24335;&#12290;&#21487;&#36873;&#30340;&#26041;&#24335;&#20026;all.obs&#65288;&#20551;&#35774;&#19981;&#23384;&#22312;&#32570;&#22833;&#25968;&#25454;&#8212;&#8212; </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#36935;&#21040;&#32570;&#22833;&#25968;&#25454;&#26102;&#23558;&#25253;&#38169;&#65289;&#12289;everything&#65288;&#36935;&#21040;&#32570;&#22833;&#25968;&#25454;&#26102;&#65292;&#30456;&#20851;&#31995;&#25968;&#30340;&#35745;&#31639;&#32467; </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#26524;&#23558;&#34987;&#35774;&#20026;missing&#65289;&#12289;complete.obs&#65288;&#34892;&#21024;&#38500;&#65289;&#20197;&#21450; pairwise.complete.obs </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#65288;&#25104;&#23545;&#21024;&#38500;&#65292;pairwise deletion&#65289; </font>
+    </p>
+    <p>
+      <font size="2">method&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#25351;&#23450;&#30456;&#20851;&#31995;&#25968;&#30340;&#31867;&#22411;&#12290;&#21487;&#36873;&#31867;&#22411;&#20026;pearson&#12289;spearman&#25110;kendall</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<font SIZE="12"/>
+</node>
+<node TEXT="cov(x, use = , method = )" ID="ID_69227754" CREATED="1404888592218" MODIFIED="1404889427656" HGAP="48" VSHIFT="13" MOVED="1404889346218"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">cor&#21644;cov&#30340;&#21442;&#25968; </font>
+    </p>
+    <p>
+      <font size="2">&#21442; &#25968;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#25551; &#36848; </font>
+    </p>
+    <p>
+      <font size="2">x&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#30697;&#38453;&#25110;&#25968;&#25454;&#26694; </font>
+    </p>
+    <p>
+      <font size="2">use&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#25351;&#23450;&#32570;&#22833;&#25968;&#25454;&#30340;&#22788;&#29702;&#26041;&#24335;&#12290;&#21487;&#36873;&#30340;&#26041;&#24335;&#20026;all.obs&#65288;&#20551;&#35774;&#19981;&#23384;&#22312;&#32570;&#22833;&#25968;&#25454;&#8212;&#8212; </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#36935;&#21040;&#32570;&#22833;&#25968;&#25454;&#26102;&#23558;&#25253;&#38169;&#65289;&#12289;everything&#65288;&#36935;&#21040;&#32570;&#22833;&#25968;&#25454;&#26102;&#65292;&#30456;&#20851;&#31995;&#25968;&#30340;&#35745;&#31639;&#32467; </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#26524;&#23558;&#34987;&#35774;&#20026;missing&#65289;&#12289;complete.obs&#65288;&#34892;&#21024;&#38500;&#65289;&#20197;&#21450; pairwise.complete.obs </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#65288;&#25104;&#23545;&#21024;&#38500;&#65292;pairwise deletion&#65289; </font>
+    </p>
+    <p>
+      <font size="2">method&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#25351;&#23450;&#30456;&#20851;&#31995;&#25968;&#30340;&#31867;&#22411;&#12290;&#21487;&#36873;&#31867;&#22411;&#20026;pearson&#12289;spearman&#25110;kendall</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font SIZE="12"/>
+</node>
+<node ID="ID_394690195" CREATED="1404888846140" MODIFIED="1404892523078" MOVED="1404889346250" HGAP="36" VSHIFT="-11"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">Partial correlation</font>
+    </p>
+    <p>
+      ggm::pcor(u = numeric vector, S = cov matrix)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<font SIZE="12"/>
+</node>
+</node>
+<node ID="ID_1525485200" CREATED="1404892585046" MODIFIED="1404892596562" HGAP="31" VSHIFT="-49"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">states &lt;- state.x77[,1:6] </font>
+    </p>
+    <p>
+      <font size="3">cov(states) </font>
+    </p>
+    <p>
+      <font size="3">cor(states) </font>
+    </p>
+    <p>
+      <font size="3">cor(states, methods = &quot;spearman&quot;)</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="3">library(ggm) </font>
+    </p>
+    <p>
+      <font size="3">pcor(c(1,5,2,3,6), cov(states))</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<hook NAME="SummaryNode"/>
+</node>
+<node TEXT="Significance Test" LOCALIZED_STYLE_REF="styles.topic" ID="ID_243930092" CREATED="1404889449484" MODIFIED="1404889470609">
+<font SIZE="12"/>
+<node TEXT="cor.test(x, y, alternative = , method = )" ID="ID_109119252" CREATED="1404889473609" MODIFIED="1404889631984">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">&#20854;&#20013;&#30340;x&#21644;y&#20026;&#35201;&#26816;&#39564;&#30456;&#20851;&#24615;&#30340;&#21464;&#37327;&#65292;alternative&#21017;&#29992;&#26469;&#25351;&#23450;&#36827;&#34892;&#21452;&#20391;&#26816;&#39564;&#25110;&#21333;&#20391;&#26816;&#39564;&#65288;&#21462;&#20540;&#20026;&quot;two.side&quot;&#12289;&quot;less&quot;&#25110;&quot;greater&quot;&#65289;&#65292;&#32780;method&#29992;&#20197;&#25351;&#23450;&#35201;&#35745;&#31639;&#30340;&#30456;&#20851;&#31867;&#22411;&#65288;&quot;pearson&quot;&#12289;&quot;kendall&quot;&#25110;&quot;spearman&quot;&#65289;&#12290;&#24403;&#30740;&#31350;&#30340;&#20551;&#35774;&#20026;&#24635;&#20307;&#30340;&#30456;&#20851;&#31995;&#25968;&#23567;&#20110;0&#26102;&#65292;&#35831;&#20351;&#29992;alternative=&quot;less&quot;&#12290;&#22312;&#30740;&#31350;&#30340;&#20551;&#35774;&#20026;&#24635;&#20307;&#30340;&#30456;&#20851;&#31995;&#25968;&#22823;&#20110;0&#26102;&#65292;&#24212;&#20351;&#29992;alternative=&quot;greater&quot;&#12290;&#22312;&#40664;&#35748;&#24773;&#20917;&#19979;&#65292;&#20551;&#35774;&#20026;alternative=&quot;two.side&quot;&#65288;&#24635;&#20307;&#30456;&#20851;&#31995;&#25968;&#19981;&#31561;&#20110;0&#65289;&#12290;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="cor.test(states[,3], states[,5])" ID="ID_1396086174" CREATED="1404889651515" MODIFIED="1404889675125">
+<font SIZE="12"/>
+</node>
+</node>
+<node TEXT="psych::corr.test(x, use  = , method = )" ID="ID_391484184" CREATED="1404889684859" MODIFIED="1404889741453">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">&#21442;&#25968;use=&#30340;&#21462;&#20540;&#21487;&#20026;&quot;pairwise&quot;&#25110;&quot;complete&quot;&#65288;&#20998;&#21035;&#34920;&#31034;&#23545;&#32570;&#22833;&#20540;&#25191;&#34892;&#25104;&#23545;&#21024;&#38500;&#25110;&#34892;&#21024;&#38500;&#65289;&#12290;&#21442;&#25968;method=&#30340;&#21462;&#20540;&#21487;&#20026;&quot;pearson&quot;&#65288;&#40664;&#35748;&#20540;&#65289;&#12289;&quot;spearman&quot;&#25110;&quot;kendall&quot;&#12290;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="corr.test(x = states, use = &quot;complete&quot;)" ID="ID_1888854048" CREATED="1404889744109" MODIFIED="1404889766562">
+<font SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Hypothesis Test" LOCALIZED_STYLE_REF="styles.subsubtopic" ID="ID_318441373" CREATED="1404872751578" MODIFIED="1404872799515">
+<font SIZE="12"/>
+<node TEXT="T-test" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1941379765" CREATED="1404872779281" MODIFIED="1404890851156">
+<font SIZE="12"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>t.test(1:10, y = c(7:20))      # P = .00001855
+t.test(1:10, y = c(7:20, 200)) # P = .1245    -- NOT significant anymore
+
+## Classical example: Student's sleep data
+plot(extra ~ group, data = sleep)
+## Traditional interface
+with(sleep, t.test(extra[group == 1], extra[group == 2]))
+## Formula interface
+t.test(extra ~ group, data = sleep)</pre>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="t.test( y ~ x, data), y is numerical, x is dichotomous" ID="ID_223575060" CREATED="1404890085515" MODIFIED="1404890206125">
+<font SIZE="12"/>
+</node>
+<node TEXT="t.test(y1, y2), y1 and y2 are numerical" ID="ID_1932879696" CREATED="1404890795109" MODIFIED="1404890815046">
+<font SIZE="12"/>
+</node>
+</node>
+<node TEXT="Nonparametric Test" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1169452834" CREATED="1404872785796" MODIFIED="1404877633156">
+<font SIZE="12"/>
+<node TEXT="wilcox.test( y ~ x, data), x is dichotomous&#xa;wilcox.test( y1, y2 )" ID="ID_1617772074" CREATED="1404890984937" MODIFIED="1404891197625">
+<font SIZE="12"/>
+</node>
+<node TEXT="Kruskal.test( y ~ A, data ), A is a factor with more than two levels" ID="ID_1876511291" CREATED="1404891010500" MODIFIED="1404891197625">
+<font SIZE="12"/>
+</node>
+<node TEXT="friedman.test( y ~ A | B , data)" ID="ID_564356001" CREATED="1404891176046" MODIFIED="1404891197625">
+<font SIZE="12"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Powerful Packages" POSITION="left" ID="ID_1461915403" CREATED="1402413243593" MODIFIED="1402413285890">
